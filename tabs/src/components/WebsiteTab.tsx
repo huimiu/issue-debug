@@ -20,7 +20,7 @@ export default function WebsiteTab(): ReactElement {
       setThemeString(theme ?? "default");
     },
   })[0];
-  alert(inTeams);
+  console.log("inTeams:", inTeams)
   const [url, setUrl] = useState("");
 
   useEffect(() => {
